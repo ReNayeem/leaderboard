@@ -1,0 +1,58 @@
+body{
+    background-color: #E5E5E5;
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #562EFF;
+}
+
+/* header end */
+
+/* nav */
+
+nav{
+    width: 870px;
+    height: 94px;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav img{
+    height: 51px;
+    display: flex;
+    align-items: center;
+}
+
+.page-name{
+    font-size: 26px;
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav div{
+    display: flex;
+    align-items: center;
+}
+
+.nav-option li{
+    margin-right: 20px;
+}
+
+nav a:hover{
+    color: lightsteelblue;
+}
