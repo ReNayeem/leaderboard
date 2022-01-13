@@ -17,13 +17,15 @@ header{
 /* nav */
 
 nav{
-    width: 870px;
+    width: 890px;
     height: 94px;
     font-family: 'Poppins', sans-serif;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 nav img{
@@ -55,4 +57,53 @@ nav div{
 
 nav a:hover{
     color: lightsteelblue;
+}
+
+#heroicons-menu-icon svg{
+    color: white;
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+#heroicons-menu-icon:hover svg{
+    color: lightsteelblue;
+    cursor: pointer;
+}
+
+#menu-icon, #heroicons-menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 688px) {
+    .nav-option{
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 0;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #562EFF;
+        height: 50vh;
+        margin-top: 94px;
+        display: none;
+    }
+
+    .nav-option li img{
+        display: block;
+    }
+
+    .nav-option li{
+        margin: 0%;
+        padding: 10px;
+    }
+
+    #heroicons-menu-icon{
+        display: block;
+    }
+
+    #menu-icon:checked~.nav-option{
+        display: block;
+    }
 }
