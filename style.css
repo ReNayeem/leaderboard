@@ -80,11 +80,12 @@ ul a{
     border-radius: 4px;
     cursor: pointer;
     transition: all .3s ease;
+    margin-right: 15px;
 }
 
 #icon svg {
     color: white;
-    height: 28px;
+    height: 33px;
 }
 
 #icon:hover {
@@ -100,14 +101,11 @@ ul a{
 }
 
 @media screen and (max-width: 688px) {
-    nav {
-        border-bottom: 1px solid #455468;
-    }
 
     ul {
         position: absolute;
         width: 100%;
-        background-color: #1d1053;
+        background-color: #3043f5a6;
         left: 0;
         top: 0;
         display: none;
