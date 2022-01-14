@@ -1,7 +1,11 @@
-body {
-    background-color: #E5E5E5;
+*{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body{
+    background-color: #E5E5E5;
 }
 
 /* header */
@@ -19,7 +23,7 @@ header{
 nav {
     display: flex;
     justify-content: space-between;
-    width: 910px;
+    width: 880px;
     height: 94px;
     margin-left: 30px;
     align-items: center;
@@ -70,7 +74,7 @@ ul {
 }
 
 ul a{
-    margin-right: 20px;
+    margin-left: 20px;
 }
 
 #icon {
@@ -110,7 +114,6 @@ ul a{
         top: 0;
         display: none;
         margin-top: 94px;
-        margin-left: -30px;
     }
     .nav-option{
         justify-content: center;
@@ -122,6 +125,10 @@ ul a{
     ul li {
         display: block;
         padding: 10px;
+    }
+
+    ul a{
+        margin-left: 0px;
     }
 
     ul li a {
