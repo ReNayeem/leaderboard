@@ -23,11 +23,11 @@ header{
 nav {
     display: flex;
     justify-content: space-between;
-    width: 880px;
+    width: 910px;
     height: 94px;
-    margin-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     align-items: center;
-    padding-right: 10px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -106,6 +106,10 @@ ul a{
 
 @media screen and (max-width: 688px) {
 
+    nav{
+        margin-left: 20px;
+    }
+    
     ul {
         position: absolute;
         width: 100%;
@@ -119,7 +123,7 @@ ul a{
         justify-content: center;
         display: flex;
         flex-direction: column;
-        padding-bottom: 10px;
+        height: 50vh;
     }
     
     ul li {
